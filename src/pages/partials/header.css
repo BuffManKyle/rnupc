@@ -1,11 +1,14 @@
 .navbar{
     background-color :#fafafa;
-    padding: 4% 0;
+    padding: 1% 0;
 }
 .navbar-brand{
 }
+.nav{
+    
+}
 .nav-link{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 .nav-brand-containter{
@@ -14,8 +17,20 @@
 }
 
 .rn-logo{
-    width: 90%;
+    width: 70%;
     height: auto;
     padding: 0;
     margin: 0;
+}
+
+@media (max-width:768px) {
+
+    .rn-logo{
+        width: 110%;
+    }
+    .nav-brand-containter{
+        margin: 2% 10%;
+        max-width: 22%;
+    }
+    
 }

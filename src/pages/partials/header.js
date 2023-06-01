@@ -3,10 +3,7 @@ import './header.css'
 import Rnlogo from './images/RNlogo.png';
 import Upclogo from './images/UPCLogo.webp';
 import React from "react";
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import {Container, Nav, Navbar, NavDropdown, Row} from 'react-bootstrap';
 
 function Header () {
 
@@ -14,7 +11,7 @@ return (
     <>
 <Navbar expand="lg" >
       <Container>
-        <Container className="nav-brand-containter">
+      <Container className="nav-brand-containter">
         <Navbar.Brand href="/">
             <img
             className="rn-logo"
@@ -24,7 +21,7 @@ return (
         </Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="m-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#link">Admissions</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
