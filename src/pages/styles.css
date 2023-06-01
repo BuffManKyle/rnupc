@@ -1,0 +1,33 @@
+.heading-hero{
+    position: relative;
+}
+.heading-hero-text{
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    color: #fff;
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%); /* Center the overlay */
+    text-align: center; /* Align text in the center */
+    background: rgba(10, 10, 10, 0.5);
+    backdrop-filter: blur(.5em);
+    padding: 1%;
+    font-size: 18px;
+}
+.header-illustration{
+    max-width: 100%;
+}
+
+
+@media (max-width:989px) {
+    .hide-on-mobile{
+        display: none;
+    }
+}
+
+
+@media (min-width:990px) {
+
+    .hide-on-desktop{
+        display: none;
+    }
+}
