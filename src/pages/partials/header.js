@@ -3,7 +3,7 @@ import './header.css'
 import Rnlogo from './images/RNlogo.png';
 import Upclogo from './images/UPCLogo.webp';
 import React from "react";
-import {Container, Nav, Navbar, NavDropdown, Row} from 'react-bootstrap';
+import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 
 function Header () {
 
