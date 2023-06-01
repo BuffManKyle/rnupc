@@ -29,8 +29,18 @@
         width: 110%;
     }
     .nav-brand-containter{
-        margin: 2% 10%;
-        max-width: 22%;
+        margin: 0;
+        max-width: 30%;
     }
-    
+    .hide-on-mobile{
+        display: none;
+    }
+}
+
+
+@media (min-width:768px) {
+
+    .hide-on-desktop{
+        display: none;
+    }
 }

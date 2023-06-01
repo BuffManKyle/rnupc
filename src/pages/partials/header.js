@@ -19,6 +19,14 @@ return (
             />
         </Navbar.Brand>
         </Container>
+        <Container className="nav-brand-containter hide-on-desktop">
+        <Navbar.Brand href="/">
+            <img
+            className="rn-logo"
+             src={Upclogo} alt="University Psychological Center Logo"
+            />
+        </Navbar.Brand>
+        </Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
@@ -48,7 +56,7 @@ return (
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-        <Container className="nav-brand-containter">
+        <Container className="nav-brand-containter hide-on-mobile">
         <Navbar.Brand href="/">
             <img
             className="rn-logo"
