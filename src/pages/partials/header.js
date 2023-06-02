@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import './header.css'
 import Rnlogo from './images/RNlogo.png';
-import Upclogo from './images/UPCLogo.webp';
+import Upclogo from './images/UPC-circletree-v1.png';
 import React from "react";
 import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 
