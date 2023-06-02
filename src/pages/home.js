@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css"
 import React from "react";
 import {Container} from 'react-bootstrap';
-import headerillustration from './assets/images/header_illustration.png'
+import headerillustration from './assets/images/DALL-E-website-heading-illistration.png'
 
 function Home () {
     return (
