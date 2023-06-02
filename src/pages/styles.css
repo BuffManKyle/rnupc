@@ -25,15 +25,24 @@
     padding: 1%;
     font-size: 5em;
 }
-.carf{
-    position: absolute;
-    top: 50%; /* Adjust as needed */
-    left: 50%; /* Adjust as needed */
-    transform: translate(-50%, -50%); /* Center the overlay */
-}
+
 .header-illustration{
     max-width: 100%;
 }
+
+.carf-pos{
+    position: absolute;
+    top: 5%; /* Adjust as needed */
+    left: 95%; /* Adjust as needed */
+    transform: translate(-50%, -50%); /* Center the overlay */
+}
+
+.content-row{
+    margin: 3% 0;
+    background-color: #f0f0f0;
+    box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.2);
+}
+
 
 
 @media (max-width: 768px) {
