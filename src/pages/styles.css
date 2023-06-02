@@ -34,11 +34,8 @@
     .hide-on-mobile{
         display: none;
     }
-    .hero-text{
-        font-size: 0.5em;
-    }
     .hero-heading{
-        font-size: 1.3em;
+        font-size: 1.6em;
     }
 }
 
