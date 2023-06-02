@@ -20,13 +20,16 @@ function Home () {
         />
         <Container>
         <div className="">
-            <p className="hero-text hide-on-mobile"> 
-                Recovery Network and University Psychological Center offer integrated treatment for co-occurring and behavioral health disorders. Our team of professionals provides state-certified mental health and addiction services, inspiring inner healing. We focus on individualized care to help patients achieve personal goals and improve their quality of life. We ensure a safe and supportive transition during times of change. Thank you for considering us as trusted providers of comprehensive co-occurring behavioral health treatment.
-            </p>
+            <h1 className="hero-heading "> 
+                Healing and Recovery: Integrated Treatment Solutions
+            </h1>
         </div>
         </Container>
     </div>
     <Container>
+    <p className=""> 
+                Recovery Network and University Psychological Center offer integrated treatment for co-occurring and behavioral health disorders. Our team of professionals provides state-certified mental health and addiction services, inspiring inner healing. We focus on individualized care to help patients achieve personal goals and improve their quality of life. We ensure a safe and supportive transition during times of change. Thank you for considering us as trusted providers of comprehensive co-occurring behavioral health treatment.
+            </p>
     <Row>
         <Col>
         <img 
