@@ -69,7 +69,7 @@ function Home () {
         <Container>
         <div className="">
             <h1 className="hero-heading "> 
-                Mission Statement
+                Our Mission
             </h1>
         </div>
         </Container>
@@ -90,7 +90,7 @@ function Home () {
         <Container>
         <div className="">
             <h1 className="hero-heading "> 
-            Vision Statement
+            Our Vision
             </h1>
         </div>
         </Container>
