@@ -8,6 +8,8 @@ import simpleillustration3 from './assets/images/simple-illustration-v3.png'
 import upctreelogo from './assets/images/UPC-tree-v2.png'
 import upccirclelogo from './assets/images/UPC-circletree-v1.png';
 import upcflowerlogo from './assets/images/UPC-flower-v1.png';
+import illustrationtest from './assets/images/BuffManKyle_group_of_men_and_women_soft_teal_peach_and_yellow_c_feeb9f72-92b6-4849-a371-010a9ea5b8c9.png'
+import illustrationtest2 from './assets/images/BuffManKyle_group_of_people_soft_teal_peach_and_yellow_colors.__efa2fbea-459f-4de0-bd70-caa089e48abb.png'
 import carf from './assets/images/CARF.png'
 
 function Home () {
@@ -124,6 +126,22 @@ function Home () {
             </Col>
     </Row>
     </Container>
+    <div className="hero" >
+        <img 
+        className="header-illustration"
+        src={illustrationtest}
+        alt="Header img"
+        />
+       
+    </div>
+    <div className="hero" >
+        <img 
+        className="header-illustration"
+        src={illustrationtest2}
+        alt="Header img"
+        />
+       
+    </div>
      </>
     )
 };
