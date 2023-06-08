@@ -86,7 +86,7 @@ function Home () {
     <div className="hero" >
         <img 
         className="header-illustration"
-        src={simpleillustration3}
+        src={illustrationtest2}
         alt="Header img"
         />
         <Container>
@@ -134,10 +134,11 @@ function Home () {
         />
        
     </div>
+    <br></br>
     <div className="hero" >
         <img 
         className="header-illustration"
-        src={illustrationtest2}
+        src={simpleillustration3}
         alt="Header img"
         />
        
