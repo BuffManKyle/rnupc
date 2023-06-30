@@ -4,12 +4,17 @@ import React from "react";
 import {Container, Row, Col} from 'react-bootstrap';
 import headerillustration from './assets/images/DALL-E-website-heading-illistration.png'
 import simpleillustration1 from './assets/images/simple-illustration-v1.png'
-import simpleillustration3 from './assets/images/simple-illustration-v3.png'
+import simpleillustration2 from './assets/images/simple-illustration-v3.png'
 import upctreelogo from './assets/images/UPC-tree-v2.png'
 import upccirclelogo from './assets/images/UPC-circletree-v1.png';
 import upcflowerlogo from './assets/images/UPC-flower-v1.png';
 import illustrationtest from './assets/images/BuffManKyle_group_of_men_and_women_soft_teal_peach_and_yellow_c_feeb9f72-92b6-4849-a371-010a9ea5b8c9.png'
 import illustrationtest2 from './assets/images/BuffManKyle_group_of_people_soft_teal_peach_and_yellow_colors.__efa2fbea-459f-4de0-bd70-caa089e48abb.png'
+import illustrationtest3 from './assets/images/Therapy-nature-illustration.png';
+import illustrationtest4 from './assets/images/nature-illustration.png';
+import illustrationtest5 from './assets/images/bridge-illustration.png';
+import illustrationtest6 from './assets/images/landscape-illustration.png';
+import illustrationtest7 from './assets/images/landscape-illustration2.png';
 import carf from './assets/images/CARF.png'
 
 function Home () {
@@ -132,16 +137,54 @@ function Home () {
         src={illustrationtest}
         alt="Header img"
         />
-       
     </div>
     <br></br>
     <div className="hero" >
         <img 
         className="header-illustration"
-        src={simpleillustration3}
+        src={simpleillustration2}
         alt="Header img"
         />
-       
+    </div>
+    <br></br>
+    <div className="hero" >
+        <img 
+        className="header-illustration"
+        src={illustrationtest3}
+        alt="Header img"
+        />
+    </div>
+    <br></br>
+    <div className="hero" >
+        <img 
+        className="header-illustration"
+        src={illustrationtest4}
+        alt="Header img"
+        />
+    </div>
+    <br></br>
+    <div className="hero" >
+        <img 
+        className="header-illustration"
+        src={illustrationtest5}
+        alt="Header img"
+        />
+    </div>
+    <br></br>
+    <div className="hero" >
+        <img 
+        className="header-illustration"
+        src={illustrationtest6}
+        alt="Header img"
+        />
+    </div>
+    <br></br>
+    <div className="hero" >
+        <img 
+        className="header-illustration"
+        src={illustrationtest7}
+        alt="Header img"
+        />
     </div>
      </>
     )
