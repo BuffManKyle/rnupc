@@ -3,7 +3,7 @@ import './header.css'
 import Rnlogo from './images/RN_BehavioralHealth_Logo_FNL.png';
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faXTwitter, faFacebookF, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faXTwitter, faSquareFacebook, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 
 function Header () {
@@ -33,7 +33,7 @@ return (
             </NavDropdown>
             <Nav.Link href="#link">Contact Us</Nav.Link>
             <div className="icon-container">
-              <FontAwesomeIcon className="icon" icon={faFacebookF} />
+              <FontAwesomeIcon className="icon" icon={faSquareFacebook} />
               <FontAwesomeIcon className="icon" icon={faXTwitter} />
               <FontAwesomeIcon className="icon" icon={faLinkedinIn} />
             </div>
