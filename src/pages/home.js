@@ -2,29 +2,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css"
 import React from "react";
 import {Container, Row, Col} from 'react-bootstrap';
-import headerillustration from './assets/images/DALL-E-website-heading-illistration.png'
-import simpleillustration1 from './assets/images/simple-illustration-v1.png'
-import simpleillustration2 from './assets/images/simple-illustration-v3.png'
-import upctreelogo from './assets/images/UPC-tree-v2.png'
-import upccirclelogo from './assets/images/UPC-circletree-v1.png';
-import upcflowerlogo from './assets/images/UPC-flower-v1.png';
-import illustrationtest from './assets/images/BuffManKyle_group_of_men_and_women_soft_teal_peach_and_yellow_c_feeb9f72-92b6-4849-a371-010a9ea5b8c9.png'
-import illustrationtest2 from './assets/images/BuffManKyle_group_of_people_soft_teal_peach_and_yellow_colors.__efa2fbea-459f-4de0-bd70-caa089e48abb.png'
-import illustrationtest3 from './assets/images/Therapy-nature-illustration.png';
-import illustrationtest4 from './assets/images/nature-illustration.png';
-import illustrationtest5 from './assets/images/bridge-illustration.png';
-import illustrationtest6 from './assets/images/landscape-illustration.png';
-import illustrationtest7 from './assets/images/landscape-illustration2.png';
 import carf from './assets/images/CARF.png'
+import introimg from './assets/images/mountain top.png'
 
 function Home () {
     return (
     <>
     <div className="hero" >
-        <img 
-        className="header-illustration"
-        src={headerillustration}
-        alt="Header img"
+        <img
+        src={introimg}
+        alt="Hero sky Image"
+        className=""
         />
         <img 
         src={carf}
@@ -45,34 +33,9 @@ function Home () {
                 Recovery Network and University Psychological Center offer integrated treatment for co-occurring and behavioral health disorders. Our team of professionals provides state-certified mental health and addiction services, inspiring inner healing. We focus on individualized care to help patients achieve personal goals and improve their quality of life. We ensure a safe and supportive transition during times of change. Thank you for considering us as trusted providers of comprehensive co-occurring behavioral health treatment.
             </h4>
         </Row>
-    <Row>
-        <Col>
-        <img 
-        src={upctreelogo}
-        className="header-illustration"
-        alt="Example of logo, Tree"/>
-        </Col>
-        <Col>
-        <img 
-        src={upccirclelogo}
-        className="header-illustration"
-        alt="example of logo, circle tree"/>
-        </Col>
-        <Col>
-        <img 
-        src={upcflowerlogo}
-        className="header-illustration"
-        alt="example of logo, flower"/>
-        </Col>
-    </Row>
     </Container>
      
     <div className="hero" >
-        <img 
-        className="header-illustration"
-        src={simpleillustration1}
-        alt="Header img"
-        />
         <Container>
         <div className="">
             <h1 className="hero-heading "> 
@@ -89,11 +52,6 @@ function Home () {
         </Row>
         </Container>
     <div className="hero" >
-        <img 
-        className="header-illustration"
-        src={illustrationtest2}
-        alt="Header img"
-        />
         <Container>
         <div className="">
             <h1 className="hero-heading "> 
@@ -131,61 +89,7 @@ function Home () {
             </Col>
     </Row>
     </Container>
-    <div className="hero" >
-        <img 
-        className="header-illustration"
-        src={illustrationtest}
-        alt="Header img"
-        />
-    </div>
-    <br></br>
-    <div className="hero" >
-        <img 
-        className="header-illustration"
-        src={simpleillustration2}
-        alt="Header img"
-        />
-    </div>
-    <br></br>
-    <div className="hero" >
-        <img 
-        className="header-illustration"
-        src={illustrationtest3}
-        alt="Header img"
-        />
-    </div>
-    <br></br>
-    <div className="hero" >
-        <img 
-        className="header-illustration"
-        src={illustrationtest4}
-        alt="Header img"
-        />
-    </div>
-    <br></br>
-    <div className="hero" >
-        <img 
-        className="header-illustration"
-        src={illustrationtest5}
-        alt="Header img"
-        />
-    </div>
-    <br></br>
-    <div className="hero" >
-        <img 
-        className="header-illustration"
-        src={illustrationtest6}
-        alt="Header img"
-        />
-    </div>
-    <br></br>
-    <div className="hero" >
-        <img 
-        className="header-illustration"
-        src={illustrationtest7}
-        alt="Header img"
-        />
-    </div>
+    
      </>
     )
 };
