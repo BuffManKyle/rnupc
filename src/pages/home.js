@@ -11,7 +11,7 @@ function Home () {
     <div className="hero" >
         <img
         src={introimg}
-        alt="Hero sky Image"
+        alt="Hero sky"
         className=""
         />
         <img 
