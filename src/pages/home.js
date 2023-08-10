@@ -9,11 +9,13 @@ function Home () {
     return (
     <>
     <div className="hero" >
+        <div className="">
         <img
         src={introimg}
         alt="Hero sky"
-        className=""
+        className="hero-img"
         />
+        </div>
         <img 
         src={carf}
         alt="CARF"
