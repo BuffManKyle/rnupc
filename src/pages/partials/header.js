@@ -12,7 +12,7 @@ return (
     <>
 <Navbar expand="lg" className="sticky-top">
       <Container className="justify-content-evenly">
-      <Container className="nav-brand-containter">
+      <Container fluid className="nav-brand-containter">
         <Navbar.Brand href="/">
             <img
             className="rn-logo"
@@ -20,7 +20,7 @@ return (
             />
         </Navbar.Brand>
         </Container>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
             <Nav.Link href="/">Home</Nav.Link>
@@ -37,8 +37,6 @@ return (
               <FontAwesomeIcon className="icon" icon={faXTwitter} />
               <FontAwesomeIcon className="icon" icon={faLinkedinIn} />
             </div>
-            
-            
           </Nav>
         </Navbar.Collapse>
       </Container>
