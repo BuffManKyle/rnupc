@@ -42,12 +42,14 @@ function Home () {
     <Container>
         <Row>
             <Col lg={4} className="grid-card">
+                <a href="https://www.w3schools.com">
                 <Card>
                 <Card.Img variant="top" src={beach} />
                 <Card.Body>
                 <Card.Title>Outpatient Substance Abuse</Card.Title>
                 </Card.Body>
                 </Card>
+                </a>
             </Col>
             <Col lg={4} className="grid-card">
             <Card>
