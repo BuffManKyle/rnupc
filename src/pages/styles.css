@@ -67,14 +67,11 @@ h4{
     .hide-on-mobile {
       display: none;
     }
-    .hero-heading {
-      font-size: 1.24em;
-    }
     p {
       font-size: 16px;
     }
     h4{
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .hero-heading{
       position: absolute;
@@ -83,15 +80,18 @@ h4{
       left: 50%; /* Adjust as needed */
       transform: translate(-50%, -50%); /* Center the overlay */
       padding: 0;
-      
+      font-size: 1.5em;
   }
     .hero-img{
       max-width: 100%;
-      height: 140px;
+      height: 160px;
+    }
+    .card:hover{
+      transform: none;
     }
   }
   
-  @media (min-width: 769px) and (max-width: 950px) {
+  @media (min-width: 769px) and (max-width: 991px) {
     .hide-on-mobile {
       display: inline-block;
     }
@@ -101,6 +101,9 @@ h4{
     .hero-heading {
       font-size: 1.2em;
     }
+    .card:hover{
+      transform: none;
+    }
     
   }
   
@@ -108,11 +111,13 @@ h4{
     .hero-heading {
       font-size: 3.5em; /* Adjust the font size as desired */
     }
+    
   }
   
   @media (min-width: 1501px) {
     .hide-on-desktop {
       display: none;
     }
+    
   }
   
