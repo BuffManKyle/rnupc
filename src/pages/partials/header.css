@@ -53,6 +53,7 @@
     .hide-on-mobile{
         display: none;
     }
+    .navbar-collapse ul {height: 100vh;}
 }
 
 
