@@ -11,15 +11,15 @@ function Header () {
 return (
     <>
 <Navbar expand="lg" className="sticky-top">
-      <Container className="justify-content-evenly">
-      <Container className="nav-brand-containter">
+      <Container className="">
+      <div className="nav-brand-containter">
         <Navbar.Brand href="/">
             <img
             className="rn-logo"
              src={Rnlogo} alt="Recovery Network Logo"
             />
         </Navbar.Brand>
-        </Container>
+        </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">

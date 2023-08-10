@@ -5,9 +5,6 @@
 .navbar-brand{
     margin: 0;
 }
-.nav{
-    
-}
 .nav-link{
     font-size: 1.5rem;
     font-weight: 500;
@@ -20,12 +17,7 @@
 
 .rn-logo{
     width: 70%;
-    height: auto;
-    padding: 0;
-    margin: 0;
 }
-
-
 
 .icon{
     margin: 15.8px 5px;
@@ -45,15 +37,10 @@
     .rn-logo{
         width: 165%;
     }
-    .nav-brand-containter{
-        
-    }
     .hide-on-mobile{
         display: none;
     }
-    
 }
-
 
 @media (min-width:990px) {
 
