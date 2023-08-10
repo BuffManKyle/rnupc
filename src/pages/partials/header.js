@@ -12,7 +12,7 @@ return (
     <>
 <Navbar expand="lg" className="sticky-top">
       <Container className="justify-content-evenly">
-      <Container fluid className="nav-brand-containter">
+      <Container className="nav-brand-containter">
         <Navbar.Brand href="/">
             <img
             className="rn-logo"

@@ -25,9 +25,7 @@
     margin: 0;
 }
 
-.icon-contaienr{
-    
-}
+
 
 .icon{
     margin: 15.8px 5px;
@@ -53,7 +51,7 @@
     .hide-on-mobile{
         display: none;
     }
-    .navbar-collapse ul {height: 100vh;}
+    
 }
 
 
