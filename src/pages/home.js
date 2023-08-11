@@ -52,47 +52,57 @@ function Home () {
                 </a>
             </Col>
             <Col lg={4} className="grid-card">
+            <a href="https://www.w3schools.com">
             <Card>
                 <Card.Img variant="top" src={classroom} />
                 <Card.Body>
                 <Card.Title>Residential Programs</Card.Title>
                 </Card.Body>
                 </Card>
+                </a>
             </Col>
             <Col lg={4} className="grid-card">
+                    <a href="https://www.w3schools.com">
                     <Card>
                 <Card.Img variant="top" src={classroom} />
                 <Card.Body>
                 <Card.Title>Outpatient Mental Health</Card.Title>
                 </Card.Body>
                 </Card>
+                </a>
             </Col>
         </Row>
 
         <Row>
             <Col lg={4} className="grid-card">
+                    <a href="https://www.w3schools.com">
                     <Card>
                 <Card.Img variant="top" src={classroom} />
                 <Card.Body>
                 <Card.Title>Psychiatric Rehabilitation Program</Card.Title>
                 </Card.Body>
                 </Card>
+                </a>
             </Col>
             <Col lg={4} className="grid-card">
+                    <a href="https://www.w3schools.com">
                     <Card>
                 <Card.Img variant="top" src={classroom} />
                 <Card.Body>
                 <Card.Title>Medication Management</Card.Title>
                 </Card.Body>
                 </Card>
+                </a>
             </Col>
             <Col lg={4} className="grid-card">
+                    <a href="https://www.w3schools.com">
                     <Card>
                 <Card.Img variant="top" src={classroom} />
                 <Card.Body>
                 <Card.Title>Resources</Card.Title>
                 </Card.Body>
                 </Card>
+                </a>
             </Col>
         </Row>
     </Container>
