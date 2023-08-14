@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css"
 import React from "react";
+import { Link } from 'react-router-dom';
 import {Container, Row, Col, Card} from 'react-bootstrap';
 import carf from './assets/images/CARF.png'
 import introimg from './assets/images/mountain top.png'
@@ -44,67 +45,67 @@ function Home () {
     <Container>
         <Row>
             <Col lg={4} className="grid-card">
-                <a href="/substance-abuse-counseling">
+                <Link to="/substance-abuse-counseling">
                 <Card>
                 <Card.Img variant="top" src={beach} />
                 <Card.Body>
                 <Card.Title>Outpatient Substance Abuse</Card.Title>
                 </Card.Body>
                 </Card>
-                </a>
+                </Link>
             </Col>
             <Col lg={4} className="grid-card">
-            <a href="/residential">
-            <Card>
+            <Link to="/residential">
+                <Card>
                 <Card.Img variant="top" src={classroom} />
                 <Card.Body>
                 <Card.Title>Residential Programs</Card.Title>
                 </Card.Body>
                 </Card>
-                </a>
+                </Link>
             </Col>
             <Col lg={4} className="grid-card">
-                    <a href="/mental-health-therapy">
-                    <Card>
+                <Link to="/mental-health-therapy">
+                <Card>
                 <Card.Img variant="top" src={classroom} />
                 <Card.Body>
                 <Card.Title>Outpatient Mental Health</Card.Title>
                 </Card.Body>
                 </Card>
-                </a>
+                </Link>
             </Col>
         </Row>
 
         <Row>
             <Col lg={4} className="grid-card">
-                    <a href="/psychiatric-rehabilitation-program">
-                    <Card>
+                <Link to="/psychiatric-rehabilitation-program">
+                <Card>
                 <Card.Img variant="top" src={classroom} />
                 <Card.Body>
                 <Card.Title>Psychiatric Rehabilitation Program</Card.Title>
                 </Card.Body>
                 </Card>
-                </a>
+                </Link>
             </Col>
             <Col lg={4} className="grid-card">
-                    <a href="/">
-                    <Card>
+                <Link to="/">
+                <Card>
                 <Card.Img variant="top" src={classroom} />
                 <Card.Body>
                 <Card.Title>Medication Management</Card.Title>
                 </Card.Body>
                 </Card>
-                </a>
+                </Link>
             </Col>
             <Col lg={4} className="grid-card">
-                    <a href="/">
-                    <Card>
+                <Link to="/">
+                <Card>
                 <Card.Img variant="top" src={classroom} />
                 <Card.Body>
                 <Card.Title>Resources</Card.Title>
                 </Card.Body>
                 </Card>
-                </a>
+                </Link>
             </Col>
         </Row>
     </Container>
