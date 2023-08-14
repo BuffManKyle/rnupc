@@ -19,7 +19,7 @@ function Footer () {
             </Col>
             <Col lg={2} className="">
                 <div className="d-grid">
-                    <Button className="footer-button" size="lg">Contact Us</Button>
+                    <Button className="footer-button" size="lg" href="/contact">Contact Us</Button>
                 </div>
             </Col>
             <Col lg={4} className="d-flex justify-content-center">

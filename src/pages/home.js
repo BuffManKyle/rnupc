@@ -44,7 +44,7 @@ function Home () {
     <Container>
         <Row>
             <Col lg={4} className="grid-card">
-                <a href="https://www.w3schools.com">
+                <a href="/substance-abuse-counseling">
                 <Card>
                 <Card.Img variant="top" src={beach} />
                 <Card.Body>
@@ -54,7 +54,7 @@ function Home () {
                 </a>
             </Col>
             <Col lg={4} className="grid-card">
-            <a href="https://www.w3schools.com">
+            <a href="/residential">
             <Card>
                 <Card.Img variant="top" src={classroom} />
                 <Card.Body>
@@ -64,7 +64,7 @@ function Home () {
                 </a>
             </Col>
             <Col lg={4} className="grid-card">
-                    <a href="https://www.w3schools.com">
+                    <a href="/mental-health-therapy">
                     <Card>
                 <Card.Img variant="top" src={classroom} />
                 <Card.Body>
@@ -77,7 +77,7 @@ function Home () {
 
         <Row>
             <Col lg={4} className="grid-card">
-                    <a href="https://www.w3schools.com">
+                    <a href="/psychiatric-rehabilitation-program">
                     <Card>
                 <Card.Img variant="top" src={classroom} />
                 <Card.Body>
@@ -87,7 +87,7 @@ function Home () {
                 </a>
             </Col>
             <Col lg={4} className="grid-card">
-                    <a href="https://www.w3schools.com">
+                    <a href="/">
                     <Card>
                 <Card.Img variant="top" src={classroom} />
                 <Card.Body>
@@ -97,7 +97,7 @@ function Home () {
                 </a>
             </Col>
             <Col lg={4} className="grid-card">
-                    <a href="https://www.w3schools.com">
+                    <a href="/">
                     <Card>
                 <Card.Img variant="top" src={classroom} />
                 <Card.Body>

@@ -12,19 +12,21 @@
 }
 
 .nav-link:hover{
-    color: #fafafa;
+    color: #747373;
+}
+.nav-link:focus{
+    color: #800E1D;
 }
 .nav-brand-containter{
     max-width: 50%;
     margin-left: 1%;
 }
-
 .rn-logo{
     width: 70%;
 }
 
 .icon:hover{
-    color: #fff;
+    color: #747373;
 }
 
 .icon{

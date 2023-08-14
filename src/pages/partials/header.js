@@ -24,14 +24,14 @@ return (
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="#link">About Us</Nav.Link>
-            <NavDropdown title="Services" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Outpatient Substance Abuse</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Residential Programs</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Outpatient Mental Health</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">Psychiatric Rehabilitation (PRP)</NavDropdown.Item>
+            <Nav.Link href="about">About Us</Nav.Link>
+            <NavDropdown title="Services" id="basic-nav-dropdown" >
+              <NavDropdown.Item href="/substance-abuse-counseling">Outpatient Substance Abuse</NavDropdown.Item>
+              <NavDropdown.Item href="/residential">Residential Programs</NavDropdown.Item>
+              <NavDropdown.Item href="/mental-health-therapy">Outpatient Mental Health</NavDropdown.Item>
+              <NavDropdown.Item href="/psychiatric-rehabilitation-program">Psychiatric Rehabilitation (PRP)</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">Contact Us</Nav.Link>
+            <Nav.Link href="/contact">Contact Us</Nav.Link>
             <div className="icon-container">
               <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/"><FontAwesomeIcon className="icon" icon={faSquareFacebook} /></a>
               <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/"><FontAwesomeIcon className="icon" icon={faXTwitter} /></a>
