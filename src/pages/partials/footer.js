@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import './footer.css'
 import React from "react";
+import { Link } from 'react-router-dom';
 import {Container, Col, Row, Button} from 'react-bootstrap';
 import carf from '../assets/images/CARF.png'
 
