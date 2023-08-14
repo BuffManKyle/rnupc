@@ -10,6 +10,7 @@ import beach from './assets/images/pexels-photo-694587.webp'
 function Home () {
     return (
     <>
+    <div className="hero-container">
     <div className="hero" >
         <div className="">
         <img
@@ -30,6 +31,7 @@ function Home () {
             </h1>
         </div>
         </Container>
+    </div>
     </div>
     <Container>
         <Row className="content-row">

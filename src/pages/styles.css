@@ -1,6 +1,11 @@
+.hero-container{
+  display: flex;
+  align-items: center; /* Vertically center content */
+  justify-content: center; /* Horizontally center content */
+}
 .hero{
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 .hero-text{
     position: absolute;
@@ -26,13 +31,12 @@
     padding: 2%;
     font-size: 5em;
 }
-
-
-.carf-pos{
-    position: absolute;
-    top: 8%; /* Adjust as needed */
-    left: 95%; /* Adjust as needed */
-    transform: translate(-50%, -50%); /* Center the overlay */
+.carf-pos {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0; /* Adjust as needed */
+  right: 0; /* Adjust as needed */
 }
 
 .content-row{
