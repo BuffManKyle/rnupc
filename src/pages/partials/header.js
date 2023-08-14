@@ -33,9 +33,9 @@ return (
             </NavDropdown>
             <Nav.Link href="#link">Contact Us</Nav.Link>
             <div className="icon-container">
-              <a target="_blank" href="https://www.facebook.com/"><FontAwesomeIcon className="icon" icon={faSquareFacebook} /></a>
-              <a target="_blank" href="https://twitter.com/"><FontAwesomeIcon className="icon" icon={faXTwitter} /></a>
-              <a target="_blank" href="https://www.linkedin.com/"><FontAwesomeIcon className="icon" icon={faLinkedinIn} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/"><FontAwesomeIcon className="icon" icon={faSquareFacebook} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/"><FontAwesomeIcon className="icon" icon={faXTwitter} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/"><FontAwesomeIcon className="icon" icon={faLinkedinIn} /></a>
             </div>
           </Nav>
         </Navbar.Collapse>
