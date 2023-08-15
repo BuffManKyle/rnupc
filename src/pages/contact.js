@@ -12,7 +12,16 @@ function Contact () {
 
         <Container>
             <Row>
-            <Col lg={6}><h3>Reach out today</h3></Col>
+            <Col lg={6}>
+                <h2>Reach out today</h2>
+                <h4>
+                    21 W. 25th Street
+                    Baltimore, MD 21218
+                </h4>
+                <h4>
+                    Phone: (410)-366-1717
+                </h4>
+            </Col>
             <Col lg={6}>
                 <Form>
                     <Form.Group className="mb-3 contact-form">

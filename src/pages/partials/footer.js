@@ -32,10 +32,12 @@ function Footer () {
                     />
                 </div>
             </Col>
-            <Col lg={4} className="d-flex justify-content-center copyright d-flex align-items-center">
-                <p>
-                    © 2023 Recovery Network | All Rights Reserved
-                </p>
+            <Col lg={4} className="d-flex justify-content-center copyright align-items-center">
+                <div>
+                    <p>
+                        © 2023 Recovery Network | All Rights Reserved
+                    </p>
+                </div>
             </Col>
         </Row>
         </Container>

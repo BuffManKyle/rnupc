@@ -36,9 +36,9 @@ function Home () {
     </div>
     <Container>
         <Row className="content-row">
-            <h4 className=""> 
+            <p className=""> 
                 The adept professionals at Recovery Network bring forth extensive expertise in the realms of substance abuse and mental health. This reservoir of experience empowers us to offer specialized guidance and compassionate assistance to communities throughout Baltimore. Our central mission revolves around facilitating individuals in their journey to regain control over their lives. Should you or a cherished individual require counseling services related to substance abuse or mental health, particularly if the idea of seeking support appears overwhelming, be reassured that our committed team is on hand to provide the essential aid and direction.
-            </h4>
+            </p>
         </Row>
     </Container>
 
@@ -121,9 +121,9 @@ function Home () {
     </div>
         <Container>
         <Row className="content-row">
-            <h4>
+            <p>
                 The primary mission of Recovery Network is to nurture a treatment environment characterized by responsiveness and respect towards patients and families. Our overarching goal is to establish a culturally proficient continuum of evidence-based practices encompassing substance abuse, mental health, and case management. These practices are designed to expedite the attainment of bio-psychosocial equilibrium and successful reintegration into the community. An integral facet of our program revolves around fostering cultural awareness, deepening the understanding of how patients' social and cultural norms influence their behaviors and treatment experiences. Additionally, our unwavering commitment to cultural competence ensures that all individuals we serve, regardless of age, race, creed, sexual preference, gender identity, or socio-economic status, receive services that uphold equity and sensitivity to their diverse backgrounds.
-            ​</h4>
+            ​</p>
         </Row>
         </Container>
     <div className="hero" >
@@ -139,8 +139,8 @@ function Home () {
     <Container>
         <Row className="content-row">
             <Col lg="6" md="auto" className="d-flex align-items-center justify-content-center">
-                <h4>“University Psychological Center, Inc. – dba, Recovery Network’s vision is to promote change, growth, and wellness to individuals and families in the community.”
-            ​   </h4>
+                <p>“University Psychological Center, Inc. – dba, Recovery Network’s vision is to promote change, growth, and wellness to individuals and families in the community.”
+            ​   </p>
             </Col>
             <Col lg="6" md="auto"  className="">
                 <h1>Core Values</h1>
