@@ -1,9 +1,14 @@
+import {Container} from 'react-bootstrap';
+
 function About () {
     return (
     <>
-        <div>
-            <h1>About Us</h1>
-        </div>
+        <Container fluid className='Jumbotron'>
+            <Container>
+                <h1>About</h1>
+                <p></p>
+            </Container>
+        </Container>
     </>
     )
 };
