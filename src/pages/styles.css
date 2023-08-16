@@ -72,11 +72,13 @@
   font-size: 1.2em;
   margin: 0 1% 25.99% 0;
 }
-.contact-button:hover{
+.contact-button:hover,
+.contact-button:focus{
   background-color: #fff;
   color: #800e1d;
   border-color: #800e1d;
   font-weight: 700;
+
 }
 .contact-form{
   padding: 0 2% 0 2% ;
