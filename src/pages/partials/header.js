@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import './header.css'
 import Rnlogo from '../assets/images/RN_BehavioralHealth_Logo_FNL.png';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXTwitter, faSquareFacebook, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
@@ -22,12 +22,7 @@ function Header () {
       setExpanded(false);
     }
   };
-    const [show, setShow] = useState(false);
     const [scrolled, setScrolled] = useState(false);
-  
-    const toggleOffCanvas = () => {
-      setShow((show) => !show);
-    };
   
     useEffect(() => {
       const handleScroll = () => {
@@ -48,7 +43,7 @@ function Header () {
 
 
 return (
-<Navbar expand="lg" className="sticky-top" >
+<Navbar expand="lg" className={scrolled ? 'scrolled' : ''} sticky="top" >
       <Container className="">
       <div className="nav-brand-containter">
         <Navbar.Brand href="/">
