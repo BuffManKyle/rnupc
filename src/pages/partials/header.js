@@ -22,6 +22,29 @@ function Header () {
       setExpanded(false);
     }
   };
+    const [show, setShow] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
+  
+    const toggleOffCanvas = () => {
+      setShow((show) => !show);
+    };
+  
+    useEffect(() => {
+      const handleScroll = () => {
+        if (window.scrollY > 0) {
+          setScrolled(true);
+        } else {
+          setScrolled(false);
+        }
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+  
 
 
 return (
