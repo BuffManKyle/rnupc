@@ -1,11 +1,11 @@
 import {Container} from 'react-bootstrap';
 
-function Residential () {
+function Medmanagment () {
     return (
     <>
         <Container fluid className='Jumbotron'>
             <Container>
-                <h1>Residential Substance Abuse Treatment</h1>
+                <h1>Medication Managment</h1>
                 <p></p>
             </Container>
         </Container>
@@ -13,4 +13,4 @@ function Residential () {
     )
 };
 
-export default Residential;
+export default Medmanagment;

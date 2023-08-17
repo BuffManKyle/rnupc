@@ -9,7 +9,9 @@ import Contact from './pages/contact';
 import Residential from './pages/residential';
 import Outmental from './pages/outpatient-mental';
 import Outsubstance from './pages/outpatient-substance';
-import Prp from './pages/prp'
+import Prp from './pages/prp';
+import Medassisted from './pages/medication-assisted';
+import Medmanagment from './pages/medication-managment';
 
 
 function App() {
@@ -21,10 +23,12 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='/about' element={<About/>} />
           <Route path='/contact' element={<Contact/>} />
-          <Route path='/residential' element={<Residential/>} />
+          <Route path='/residential-substance-abuse-treatment' element={<Residential/>} />
           <Route path='/mental-health-therapy' element={<Outmental/>} />
           <Route path='/substance-abuse-counseling/' element={<Outsubstance/>} />
           <Route path='/psychiatric-rehabilitation-program' element={<Prp/>} />
+          <Route path='/medication-managment' element={<Medmanagment/>} />
+          <Route path='/medication-assisted-treatment' element={<Medassisted/>} />
         </Routes>
         <Footer />
 

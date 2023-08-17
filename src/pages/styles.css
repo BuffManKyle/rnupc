@@ -31,6 +31,10 @@
     padding: 2%;
     font-size: 5em;
 }
+
+.paragraph-line{
+  
+}
 .carf-pos {
   max-width: 100%;
   height: auto;
@@ -52,11 +56,15 @@
   background-color: #800e1d;
   color: #fff;
   box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.3);
+  height: 100%;
 }
 .card:hover{
   color: #800e1d;
   background-color: #fff;
   transform: scale(1.1);
+}
+.card-body{
+  height: 100%;
 }
 
 .Jumbotron{
@@ -64,6 +72,7 @@
   color: #fff;
   padding: 2%;
   margin-bottom: 2%;
+  margin-top: 1%;
 }
 
 .contact-button{
@@ -83,7 +92,9 @@
 .contact-form{
   padding: 0 2% 0 2% ;
 }
-
+.textcenter{
+  text-align: center;
+}
 a{
   text-decoration: none;
 }

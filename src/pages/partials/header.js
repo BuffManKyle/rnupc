@@ -24,22 +24,31 @@ function Header () {
   };
     const [scrolled, setScrolled] = useState(false);
   
-    useEffect(() => {
-      const handleScroll = () => {
-        if (window.scrollY > 0) {
-          setScrolled(true);
-        } else {
-          setScrolled(false);
-        }
-      };
-  
-      window.addEventListener('scroll', handleScroll);
-  
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
+  useEffect(() => {
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setScrolled(true);
+    } else {
+        setScrolled(false);
+      }
+  };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
       };
     }, []);
-  
+    
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+    const handleDropdownToggle = () => {
+      setIsDropdownOpen(!isDropdownOpen);
+    };
+
+    const handleDropdownBlur = () => {
+      setIsDropdownOpen(false);
+    };
 
 
 return (
@@ -58,11 +67,16 @@ return (
           <Nav className="m-auto" >
             <Nav.Link href="/" onClick={handleLinkClick}>Home</Nav.Link>
             <Nav.Link as={Link} to="about" onClick={handleLinkClick}>About Us</Nav.Link>
-            <NavDropdown title="Services" id="basic-nav-dropdown" >
-              <NavDropdown.Item as={Link} to="/substance-abuse-counseling" onClick={handleLinkClick}>Outpatient Substance Abuse</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/residential" onClick={handleLinkClick}>Residential Programs</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/mental-health-therapy" onClick={handleLinkClick}>Outpatient Mental Health</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/psychiatric-rehabilitation-program" onClick={handleLinkClick}>Psychiatric Rehabilitation (PRP)</NavDropdown.Item>
+            <NavDropdown title="Services" id="basic-nav-dropdown" 
+              show={isDropdownOpen}
+              onMouseEnter={handleDropdownToggle}
+              onMouseLeave={handleDropdownBlur}>
+              <NavDropdown.Item as={Link} to="/substance-abuse-counseling" onClick={handleLinkClick}>Outpatient Substance Abuse Counseling</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/residential-substance-abuse-treatment" onClick={handleLinkClick}>Residential Substance Abuse Treatment</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/psychiatric-rehabilitation-program" onClick={handleLinkClick}>Psychiatric Rehabilitation Program</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/mental-health-therapy" onClick={handleLinkClick}>Outpatient Mental Health Therapy</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/medication-managment" onClick={handleLinkClick}>Medication Managment</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/medication-assisted-treatment" onClick={handleLinkClick}>Medication Assisted Treatment</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/contact" onClick={handleLinkClick}>Contact Us</Nav.Link>
             <div className="icon-container">
