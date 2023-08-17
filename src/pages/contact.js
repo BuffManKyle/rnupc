@@ -1,18 +1,20 @@
-import {Container, Form, FloatingLabel, Col, Row, Button} from 'react-bootstrap';
+import {Container, Col, Row} from 'react-bootstrap';
+import Contactform from './partials/contact-form';
 
 function Contact () {
     return (
     <>
+        <div className='contact-sunset'>
         <Container fluid className='Jumbotron'>
             <Container>
                 <h1>Contact Us</h1>
                 <p></p>
             </Container>
         </Container>
-
+            
         <Container>
-            <Row>
-            <Col lg={6}>
+            <Row className='content-container'>
+            <Col lg={6} className='content-col'>
                 <h2>Reach out today</h2>
                 <h4>
                     21 W. 25th Street
@@ -23,43 +25,11 @@ function Contact () {
                 </h4>
             </Col>
             <Col lg={6}>
-                <Form>
-                    <Form.Group className="mb-3 contact-form">
-                        <FloatingLabel
-                            controlId="floatingName"
-                            label="Name"
-                            className="mb-3">
-                            <Form.Control type="name" placeholder='Name'/>
-                        </FloatingLabel>
-
-                        <FloatingLabel
-                            controlId="floatingEmail"
-                            label="Email Address"
-                            className="mb-3">
-                            <Form.Control type="email" placeholder='Email Address'/>
-                        </FloatingLabel>
-
-                        <FloatingLabel
-                            controlId="floatingPhone"
-                            label="Phone"
-                            className="mb-3">
-                            <Form.Control type="number" placeholder='Phone'/>
-                        </FloatingLabel>
-
-                        <FloatingLabel
-                            controlId="floatingMsg"
-                            label="Message"
-                            className="mb-3">
-                            <Form.Control as="textarea" type="text" placeholder='Message'/>
-                        </FloatingLabel>
-                    </Form.Group>
-                    <div className="d-grid gap-2">
-                    <Button className='contact-button' size="lg" type="submit">Submit form</Button>
-                    </div>
-                </Form>
+                <Contactform/>
             </Col>
             </Row>
         </Container>
+        </div>
     </>
     )
 };

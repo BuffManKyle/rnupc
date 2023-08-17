@@ -42,7 +42,7 @@ function Home () {
         <Row className="Jumbotron d-flex justify-content-center">
             <Col lg={7}>
                 
-                <h5 className="textcenter paragraph-line"> 
+                <h5 className="textcenter"> 
                     The adept professionals at Recovery Network bring forth extensive expertise in the realms of substance abuse and mental health. This reservoir of experience empowers us to offer specialized guidance and compassionate assistance to communities throughout Baltimore. Our central mission revolves around facilitating individuals in their journey to regain control over their lives. Should you or a cherished individual require counseling services related to substance abuse or mental health, particularly if the idea of seeking support appears overwhelming, be reassured that our committed team is on hand to provide the essential aid and direction.
                 </h5>
                 

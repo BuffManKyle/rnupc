@@ -31,10 +31,6 @@
     padding: 2%;
     font-size: 5em;
 }
-
-.paragraph-line{
-  
-}
 .carf-pos {
   max-width: 100%;
   height: auto;
@@ -47,6 +43,16 @@
     margin: 3% 0;
     background-color: #f0f0f0;
     box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.2);
+}
+.content-container{
+  padding: 1%;
+}
+.content-col{
+  background-color: #fff;
+  height: 100%;
+  border: #800e1d;
+  border-width: 3px;
+  border-style: solid
 }
 .grid-card{
   margin: 1% 0;
@@ -71,7 +77,6 @@
   background-color: #800e1d;
   color: #fff;
   padding: 2%;
-  margin-bottom: 2%;
   margin-top: 1%;
 }
 
@@ -90,7 +95,16 @@
 
 }
 .contact-form{
-  padding: 0 2% 0 2% ;
+  padding: 2% 2% 0 2% ;
+  background: rgba(10, 10, 10, 0.1);
+  backdrop-filter: blur(.5em);
+  height: 80%;
+}
+.contact-sunset{
+  background: url("https://cdn.pixabay.com/photo/2023/07/08/04/58/sunset-8113697_1280.jpg");
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
 }
 .textcenter{
   text-align: center;

@@ -1,5 +1,6 @@
 .App {
   background-color: #fafafa;
+  z-index: 0;
 }
 .App{
   position: relative;

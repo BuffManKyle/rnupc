@@ -1,4 +1,5 @@
-import {Container} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
+import Contactform from './partials/contact-form';
 
 function OutSubstance () {
     return (
@@ -11,8 +12,9 @@ function OutSubstance () {
                 </p>
             </Container>
         </Container>
-
         <Container>
+        <Row>
+            <Col lg={8}>
             <h2>Traditional Outpatient (Level I.1)</h2>
             <p>
                 Traditional outpatient counseling is provided in the form of individual, group, or a mixture of these service types to assist individuals in meeting their own recovery goals. This level of care is designed for individuals in early recovery who need additional support, education, and treatment, but do not need the structured support provided in an intensive outpatient program.
@@ -38,6 +40,11 @@ function OutSubstance () {
                 <li>Urinalysis Monitoring</li>
                 <li>Liaison Consultation to Probation Offices</li>
             </ul>
+            </Col>
+            <Col lg={4}>
+                <Contactform/>
+            </Col>
+        </Row>
         </Container>
     </>
     )
