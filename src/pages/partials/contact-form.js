@@ -55,7 +55,7 @@ function Contactform () {
                     <Form.Control as="textarea" type="text" placeholder='Message' name='message'/>
                 </FloatingLabel>
             </Form.Group>
-            <div className='captcha-css'>
+            <div className='captcha-css d-flex justify-content-center'>
             <ReCAPTCHA
                 sitekey="6LdE87cnAAAAAHj00ADapY_ToZuNh9K3PXcfTw02"
                 onChange={onChange}

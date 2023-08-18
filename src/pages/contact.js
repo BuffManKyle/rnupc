@@ -1,10 +1,11 @@
 import {Container, Col, Row} from 'react-bootstrap';
 import Contactform from './partials/contact-form';
+import sunset from './assets/images/sunset-8113697_1280.jpg';
 
 function Contact () {
     return (
     <>
-        <div className='contact-sunset'>
+        <div className='background-img-props' style={{ backgroundImage: `url(${sunset})` }}>
         <Container fluid className='Jumbotron'>
             <Container>
                 <h1>Contact Us</h1>

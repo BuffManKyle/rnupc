@@ -1,8 +1,11 @@
-import {Container} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
+import Contactform from './partials/contact-form';
+import lake from './assets/images/lake-7340473_1280.jpg';
 
 function OutMental () {
     return (
     <>
+    <div className='background-img-props' style={{ backgroundImage: `url(${lake})` }}>
         <Container fluid className='Jumbotron'>
             <Container>
                 <h1>Outpatient Mental Health Services</h1>
@@ -13,19 +16,28 @@ function OutMental () {
         </Container>
 
         <Container>
-            <ul>
-                <li>Psychiatric Evaluation</li>
-                <li>Psychological Testing</li>
-                <li>Psychoanalysis</li>
-                <li>Therapy for individuals, couples, groups and families</li>
-                <li>Addiction Services</li>
-                <li>Psychotropic Medication</li>
-                <li>Evidence-Based Neurofeedback Therapy</li>
-                <li>Forensic Evaluation & Testimony</li>
-                <li>Stress Management & Hypnosis</li>
-                <li>Psychiatric Rehabilitation Program (PRP)</li>
-            </ul>
+            
+            <Row className='content-container'>
+                <Col lg={8} className=''>
+                    <ul>
+                        <li>Psychiatric Evaluation</li>
+                        <li>Psychological Testing</li>
+                        <li>Psychoanalysis</li>
+                        <li>Therapy for individuals, couples, groups and families</li>
+                        <li>Addiction Services</li>
+                        <li>Psychotropic Medication</li>
+                        <li>Evidence-Based Neurofeedback Therapy</li>
+                        <li>Forensic Evaluation & Testimony</li>
+                        <li>Stress Management & Hypnosis</li>
+                        <li>Psychiatric Rehabilitation Program (PRP)</li>
+                    </ul>
+                </Col>
+                <Col lg={4}>
+                    <Contactform/>
+                </Col>
+            </Row>
         </Container>
+    </div>
     </>
     )
 };

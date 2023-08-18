@@ -109,7 +109,7 @@ form{
   margin-top: 1%;
 }
 .captcha-css{
-  padding: 1% 0;
+  padding: 0 0 2%;
 }
 .textcenter{
   text-align: center;
@@ -118,8 +118,7 @@ a{
   text-decoration: none;
 }
 /* Page Backgrounds */
-.contact-sunset{
-  background: url("https://cdn.pixabay.com/photo/2023/07/08/04/58/sunset-8113697_1280.jpg");
+.background-img-props{
   background-size: cover;
   min-width: 100%;
   min-height: 100%;

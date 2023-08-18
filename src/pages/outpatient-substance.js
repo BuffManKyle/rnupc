@@ -1,9 +1,11 @@
 import {Container, Row, Col} from 'react-bootstrap';
 import Contactform from './partials/contact-form';
+import sunset from './assets/images/wedding-7335258_1280.jpg';
 
 function OutSubstance () {
     return (
     <>
+    <div className='background-img-props' style={{ backgroundImage: `url(${sunset})` }}>
         <Container fluid className='Jumbotron'>
             <Container>
                 <h1>Outpatient Substance Abuse Counseling</h1>
@@ -46,6 +48,7 @@ function OutSubstance () {
             </Col>
         </Row>
         </Container>
+        </div>
     </>
     )
 };

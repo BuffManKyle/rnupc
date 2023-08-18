@@ -63,7 +63,7 @@ function Home () {
                 </Link>
             </Col>
             <Col lg={4} className="grid-card">
-            <Link to="/residential">
+            <Link to="/residential-substance-abuse-treatment">
                 <Card>
                 <Card.Img variant="top" src={man} />
                 <Card.Body>
