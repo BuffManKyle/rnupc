@@ -14,6 +14,7 @@ import Medassisted from './pages/medication-assisted';
 import Medmanagment from './pages/medication-managment';
 
 
+
 function App() {
   return (
      <div  className="App">
@@ -29,10 +30,7 @@ function App() {
           <Route path='/medication-managment' element={<Medmanagment/>} />
           <Route path='/medication-assisted-treatment' element={<Medassisted/>} />
         </Routes>
-        <Footer />
-
-      
-      
+        <Footer />      
     </div>
   );
 }

@@ -46,6 +46,7 @@
 }
 .content-container{
   padding: 1%;
+  margin-top: 2%;
 }
 .content-col{
   background-color: #fff;
@@ -54,6 +55,7 @@
   border-width: 3px;
   border-style: solid
 }
+/* Cards */
 .grid-card{
   margin: 1% 0;
   text-align: center;
@@ -72,15 +74,9 @@
 .card-body{
   height: 100%;
 }
-
-.Jumbotron{
-  background-color: #800e1d;
-  color: #fff;
-  padding: 2%;
-  margin-top: 1%;
-}
-
-.contact-button{
+/* Contact Form */
+.contact-button,
+.contact-button:disabled{
   background-color: #800e1d;
   border-color: #800e1d;
   font-size: 1.2em;
@@ -98,13 +94,22 @@
   padding: 2% 2% 0 2% ;
   background: rgba(10, 10, 10, 0.1);
   backdrop-filter: blur(.5em);
-  height: 80%;
 }
-.contact-sunset{
-  background: url("https://cdn.pixabay.com/photo/2023/07/08/04/58/sunset-8113697_1280.jpg");
-  background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
+.contact-form h2 {
+  color: #fff;
+}
+form{
+  margin-top: 5%;
+}
+/* Extras */
+.Jumbotron{
+  background-color: #800e1d;
+  color: #fff;
+  padding: 2%;
+  margin-top: 1%;
+}
+.captcha-css{
+  padding: 1% 0;
 }
 .textcenter{
   text-align: center;
@@ -112,6 +117,14 @@
 a{
   text-decoration: none;
 }
+/* Page Backgrounds */
+.contact-sunset{
+  background: url("https://cdn.pixabay.com/photo/2023/07/08/04/58/sunset-8113697_1280.jpg");
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 
 @media (max-width: 768px) {
     .hide-on-mobile {

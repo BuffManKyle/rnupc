@@ -12,7 +12,7 @@ function OutSubstance () {
                 </p>
             </Container>
         </Container>
-        <Container>
+        <Container className='content-container'>
         <Row>
             <Col lg={8}>
             <h2>Traditional Outpatient (Level I.1)</h2>
