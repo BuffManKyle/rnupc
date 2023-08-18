@@ -51,71 +51,73 @@ function Home () {
     </Container>
 
     <Container>
-        <Row>
-            <Col lg={4} className="grid-card">
-                <Link to="/substance-abuse-counseling">
-                <Card>
-                <Card.Img variant="top" src={sunset} />
-                <Card.Body>
-                <Card.Title>Outpatient Substance Abuse Counseling</Card.Title>
-                </Card.Body>
-                </Card>
-                </Link>
-            </Col>
-            <Col lg={4} className="grid-card">
-            <Link to="/residential-substance-abuse-treatment">
-                <Card>
-                <Card.Img variant="top" src={man} />
-                <Card.Body>
-                <Card.Title>Residential Substance Abuse Treatment</Card.Title>
-                </Card.Body>
-                </Card>
-                </Link>
-            </Col>
-            <Col lg={4} className="grid-card">
-                <Link to="/mental-health-therapy">
-                <Card>
-                <Card.Img variant="top" src={lake} />
-                <Card.Body>
-                <Card.Title>Outpatient Mental Health Therapy</Card.Title>
-                </Card.Body>
-                </Card>
-                </Link>
-            </Col>
-        </Row>
+        <div className="grid-card-container">
+            <Row>
+                <Col lg={4} className="grid-card">
+                    <Link to="/substance-abuse-counseling">
+                    <Card>
+                    <Card.Img variant="top" src={sunset} />
+                    <Card.Body>
+                    <Card.Title>Outpatient Substance Abuse Counseling</Card.Title>
+                    </Card.Body>
+                    </Card>
+                    </Link>
+                </Col>
+                <Col lg={4} className="grid-card">
+                <Link to="/residential-substance-abuse-treatment">
+                    <Card>
+                    <Card.Img variant="top" src={man} />
+                    <Card.Body>
+                    <Card.Title>Residential Substance Abuse Treatment</Card.Title>
+                    </Card.Body>
+                    </Card>
+                    </Link>
+                </Col>
+                <Col lg={4} className="grid-card">
+                    <Link to="/mental-health-therapy">
+                    <Card>
+                    <Card.Img variant="top" src={lake} />
+                    <Card.Body>
+                    <Card.Title>Outpatient Mental Health Therapy</Card.Title>
+                    </Card.Body>
+                    </Card>
+                    </Link>
+                </Col>
+            </Row>
 
-        <Row>
-            <Col lg={4} className="grid-card">
-                <Link to="/psychiatric-rehabilitation-program">
-                <Card>
-                <Card.Img variant="top" src={beach} />
-                <Card.Body>
-                <Card.Title>Psychiatric Rehabilitation Program</Card.Title>
-                </Card.Body>
-                </Card>
-                </Link>
-            </Col>
-            <Col lg={4} className="grid-card">
-                <Link to="/medication-managment">
-                <Card>
-                <Card.Img variant="top" src={family} />
-                <Card.Body>
-                <Card.Title>Medication Management</Card.Title>
-                </Card.Body>
-                </Card>
-                </Link>
-            </Col>
-            <Col lg={4} className="grid-card">
-                <Link to="/medication-assisted-treatment">
-                <Card>
-                <Card.Img variant="top" src={rainbow} />
-                <Card.Body>
-                <Card.Title>Medication Assisted Treatment</Card.Title>
-                </Card.Body>
-                </Card>
-                </Link>
-            </Col>
-        </Row>
+            <Row>
+                <Col lg={4} className="grid-card">
+                    <Link to="/psychiatric-rehabilitation-program">
+                    <Card>
+                    <Card.Img variant="top" src={beach} />
+                    <Card.Body>
+                    <Card.Title>Psychiatric Rehabilitation Program</Card.Title>
+                    </Card.Body>
+                    </Card>
+                    </Link>
+                </Col>
+                <Col lg={4} className="grid-card">
+                    <Link to="/medication-managment">
+                    <Card>
+                    <Card.Img variant="top" src={family} />
+                    <Card.Body>
+                    <Card.Title>Medication Management</Card.Title>
+                    </Card.Body>
+                    </Card>
+                    </Link>
+                </Col>
+                <Col lg={4} className="grid-card">
+                    <Link to="/medication-assisted-treatment">
+                    <Card>
+                    <Card.Img variant="top" src={rainbow} />
+                    <Card.Body>
+                    <Card.Title>Medication Assisted Treatment</Card.Title>
+                    </Card.Body>
+                    </Card>
+                    </Link>
+                </Col>
+            </Row>
+        </div>
     </Container>
      
     <div className="hero" >

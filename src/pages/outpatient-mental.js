@@ -18,7 +18,7 @@ function OutMental () {
         <Container>
             
             <Row className='content-container'>
-                <Col lg={8} className=''>
+                <Col lg={8} className='content-col'>
                     <ul>
                         <li>Psychiatric Evaluation</li>
                         <li>Psychological Testing</li>

@@ -15,7 +15,7 @@ function Medassisted () {
 
         <Container>
             <Row className='content-container'>
-            <Col lg={8} className=''>
+            <Col lg={8} className='content-col'>
                 
             </Col>
             <Col lg={4}>

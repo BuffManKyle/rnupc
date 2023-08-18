@@ -16,7 +16,7 @@ function OutSubstance () {
         </Container>
         <Container className='content-container'>
         <Row>
-            <Col lg={8}>
+            <Col lg={8} className='content-col'>
             <h2>Traditional Outpatient (Level I.1)</h2>
             <p>
                 Traditional outpatient counseling is provided in the form of individual, group, or a mixture of these service types to assist individuals in meeting their own recovery goals. This level of care is designed for individuals in early recovery who need additional support, education, and treatment, but do not need the structured support provided in an intensive outpatient program.
