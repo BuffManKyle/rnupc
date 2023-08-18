@@ -25,6 +25,8 @@
     width: 70%;
 }
 
+
+
 .icon:hover{
     color: #747373;
 }
@@ -51,6 +53,9 @@
     .hide-on-mobile{
         display: none;
     }
+    .scrolled .rn-logo {
+        width: 120%;
+      }
 }
 
 @media (min-width:990px) {
