@@ -5,31 +5,39 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ReCAPTCHA from "react-google-recaptcha";
 
-function Contactform () {
+function Contactform() {
     const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
     const form = useRef();
+
     const sendEmail = (e) => {
         e.preventDefault();
-    
-        const sendEmail = (e) => {
-            e.preventDefault();
-        
-            emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID, form.current, "qBl7jlxZyYXRW4HE2")
-                .then((result) => {
-                    console.log(result.text);
-                    e.target.reset();
-                    toast.success("Message Sent!");
-                })
-                .catch((error) => {
-                    console.log(error.text);
-                    toast.error("An error occurred while sending the message. Please try again later.");
-                });
-        };
-    }
-      function onChange(value) {
+
+        if (!isCaptchaVerified) {
+            toast.error("Please complete the ReCAPTCHA before sending the message.");
+            return;
+        }
+
+        emailjs.sendForm(
+            process.env.REACT_APP_YOUR_SERVICE_ID,
+            process.env.REACT_APP_YOUR_TEMPLATE_ID,
+            form.current,
+            "qBl7jlxZyYXRW4HE2"
+        )
+        .then((result) => {
+            console.log(result.text);
+            e.target.reset();
+            toast.success("Message Sent!");
+        })
+        .catch((error) => {
+            console.log(error.text);
+            toast.error("An error occurred while sending the message. Please try again later.");
+        });
+    };
+
+    function onChange(value) {
         console.log("Captcha value:", value);
         setIsCaptchaVerified(true);
-      }
+    }
     return (
     <>
     <div className='contact-form'>
