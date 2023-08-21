@@ -23,6 +23,7 @@
 }
 .rn-logo{
     width: 70%;
+    transition: linear 0.4s;
 }
 
 
@@ -55,6 +56,7 @@
     }
     .scrolled .rn-logo {
         width: 120%;
+        transition: linear 0.4s;
       }
 }
 

@@ -18,7 +18,7 @@ function OutMental () {
         <Container>
             
             <Row className='content-container'>
-                <Col lg={8} className='content-col'>
+                <Col lg={8} sm={12} className='content-col'>
                     <ul>
                         <li>Psychiatric Evaluation</li>
                         <li>Psychological Testing</li>
@@ -32,7 +32,7 @@ function OutMental () {
                         <li>Psychiatric Rehabilitation Program (PRP)</li>
                     </ul>
                 </Col>
-                <Col lg={4}>
+                <Col lg={4} sm={12}>
                     <Contactform/>
                 </Col>
             </Row>
