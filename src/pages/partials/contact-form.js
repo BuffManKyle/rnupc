@@ -11,7 +11,7 @@ function Contactform () {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm("service_qf3nuuc", "template_syg3dvq", form.current, "qBl7jlxZyYXRW4HE2")
+        emailjs.sendForm(REACT_APP_YOUR_SERVICE_ID, REACT_APP_YOUR_TEMPLATE_ID, form.current, REACT_APP_YOUR_PUBLIC_KEY)
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -57,7 +57,7 @@ function Contactform () {
             </Form.Group>
             <div className='captcha-css d-flex justify-content-center'>
             <ReCAPTCHA
-                sitekey="6LdE87cnAAAAAHj00ADapY_ToZuNh9K3PXcfTw02"
+                sitekey={REACT_APP_SITE_KEY}
                 onChange={onChange}
             />
             </div>
