@@ -18,10 +18,10 @@ function Contactform() {
         }
 
         emailjs.sendForm(
-            "service_qf3nuuc",
-            "template_syg3dvq",
+            process.env.REACT_APP_YOUR_SERVICE_ID,
+            process.env.REACT_APP_YOUR_TEMPLATE_ID,
             form.current,
-            "qBl7jlxZyYXRW4HE2"
+            process.env.REACT_APP_YOUR_PUBLIC_KEY
         )
         .then((result) => {
             console.log(result.text);
