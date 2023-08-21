@@ -32,15 +32,15 @@ function Contactform () {
             <Form.Group className="mb-3 ">
                 <FloatingLabel
                     controlId="floatingName"
-                    label="Name"
+                    label="Name*"
                     className="mb-3">
-                    <Form.Control type="name" placeholder='Name' name='from_name'/>
+                    <Form.Control type="name" placeholder='Name' name='from_name' required/>
                 </FloatingLabel>
                 <FloatingLabel
                     controlId="floatingEmail"
-                    label="Email Address"
+                    label="Email Address*"
                     className="mb-3">
-                    <Form.Control type="email" placeholder='Email Address' name='from_email'/>
+                    <Form.Control type="email" placeholder='Email Address' name='from_email' required/>
                 </FloatingLabel>
                 <FloatingLabel
                     controlId="floatingPhone"
@@ -50,9 +50,9 @@ function Contactform () {
                 </FloatingLabel>
                 <FloatingLabel
                     controlId="floatingMsg"
-                    label="Message"
+                    label="Message*"
                     className="mb-3">
-                    <Form.Control as="textarea" type="text" placeholder='Message' name='message'/>
+                    <Form.Control as="textarea" type="text" placeholder='Message' name='message' required/>
                 </FloatingLabel>
             </Form.Group>
             <div className='captcha-css d-flex justify-content-center'>
