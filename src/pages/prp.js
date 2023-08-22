@@ -16,7 +16,7 @@ function Prp () {
         </Container>
 
         <Container className='content-container'>
-        <Row>
+        <Row className='gy-3'>
             <Col lg={8} className='content-col'>
             <p>
                 Recovery Network's Psychiatric Rehabilitation Program provides one-to-one, group skill trainings and community based services that promote the use of resources as well as self-help organizations to adults with psychiatric disabilities.  Services are highly individualized and directed by the participant's choice in collaboration with the rehabilitation staff and family members, when appropriate.  The development or enhancement of independent living skills is facilitated by an array of skill building interventions supportive of successful, independent community living.

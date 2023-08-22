@@ -13,8 +13,8 @@ function Medassisted () {
             </Container>
         </Container>
 
-        <Container>
-            <Row className='content-container'>
+        <Container className='content-container'>
+            <Row className='gy-3'>
             <Col lg={8} className='content-col'>
                 
             </Col>

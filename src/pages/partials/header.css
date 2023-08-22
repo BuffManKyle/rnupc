@@ -10,7 +10,6 @@
     font-weight: 500;
     color: #800E1D;
 }
-
 .nav-link:hover{
     color: #747373;
 }
@@ -25,13 +24,9 @@
     width: 70%;
     transition: linear 0.4s;
 }
-
-
-
 .icon:hover{
     color: #747373;
 }
-
 .icon{
     margin: 13.7px 6px;
     font-size: 1.6rem;

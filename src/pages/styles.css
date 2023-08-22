@@ -38,7 +38,6 @@
   top: 0; /* Adjust as needed */
   right: 0; /* Adjust as needed */
 }
-
 .content-row{
     margin: 3% 0;
     background-color: #f0f0f0;
@@ -68,6 +67,7 @@
   color: #fff;
   box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.3);
   height: 100%;
+  transition: transform 0.35s ease;
 }
 .card:hover{
   color: #800e1d;
@@ -91,7 +91,6 @@
   color: #800e1d;
   border-color: #800e1d;
   font-weight: 700;
-
 }
 .contact-form{
   padding: 2% 2% 0 2% ;
@@ -172,21 +171,17 @@ a{
     .card:hover{
       transform: none;
     }
-    
-    
   }
   
   @media (min-width: 951px) and (max-width: 1600px) {
     .hero-heading {
       font-size: 3.5em; /* Adjust the font size as desired */
     }
-    
   }
   
   @media (min-width: 1501px) {
     .hide-on-desktop {
       display: none;
     }
-    
   }
   

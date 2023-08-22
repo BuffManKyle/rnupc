@@ -15,9 +15,9 @@ function OutMental () {
             </Container>
         </Container>
 
-        <Container>
+        <Container className='content-container' >
             
-            <Row className='content-container'>
+            <Row className='gy-3'>
                 <Col lg={8} sm={12} className='content-col'>
                     <ul>
                         <li>Psychiatric Evaluation</li>
