@@ -10,7 +10,7 @@ function OutSubstance () {
             <Container>
                 <h1>Outpatient Substance Abuse Counseling</h1>
                 <p>
-                    Recovery Network provides an array of comprehensive care options encompassing five distinct levels of treatment: Outpatient (Level I.1), Intensive Outpatient (Level II.1), Residential services at ASAM Intensity Levels III.1. Our extensive facility boasts over 60 halfway house beds, catering to the needs of individuals requiring both short-term and extended care. Our offerings extend to diverse populations, including males, females, and those who identify as transgender. Driven by clinical considerations, Recovery Network presents a spectrum of twenty-five core program services to cater to a range of therapeutic needs.
+                    Recovery Network provides an array of comprehensive care options encompassing five distinct levels of treatment: Outpatient (Level I.1), Intensive Outpatient (Level II.1), Residential services at ASAM Intensity Levels III.1  and III.5. Our extensive facility boasts over 60 halfway house beds, catering to the needs of individuals requiring both short-term and extended care. Our offerings extend to diverse populations, including males, females, and those who identify as transgender. Driven by clinical considerations, Recovery Network presents a spectrum of twenty-five core program services to cater to a range of therapeutic needs.
                 </p>
             </Container>
         </Container>
