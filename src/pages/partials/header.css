@@ -20,6 +20,9 @@
     max-width: 50%;
     margin-left: 1%;
 }
+.dropdown-toggle:hover{
+    color: #747373 !important;
+}
 .rn-logo{
     width: 70%;
     transition: linear 0.4s;

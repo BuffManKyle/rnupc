@@ -22,7 +22,7 @@ function Contact () {
                     Baltimore, MD 21218
                 </h4>
                 <h4>
-                    Phone: (410)-366-1717
+                    Phone: (410) 366-1717
                 </h4>
             </Col>
             <Col lg={6}>

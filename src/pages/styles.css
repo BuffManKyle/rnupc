@@ -77,6 +77,19 @@
 .card-body{
   height: 100%;
 }
+.services-button{
+  background-color: #800e1d;
+  border-color: #800e1d;
+  font-size: 1.2em;
+  margin: 0 1% 5% 0;
+  width: 100% !important;
+}
+.services-button:hover{
+  background-color: #fff;
+  color: #800e1d;
+  border-color: #800e1d;
+  font-weight: 700;
+}
 /* Contact Form */
 .contact-button,
 .contact-button:disabled{

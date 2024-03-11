@@ -4,7 +4,7 @@ import Rnlogo from '../assets/images/RN_BehavioralHealth_Logo_FNL.png';
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faXTwitter, faSquareFacebook, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faSquareFacebook, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 
 
@@ -72,16 +72,15 @@ return (
               onMouseEnter={handleDropdownToggle}
               onMouseLeave={handleDropdownBlur}>
               <NavDropdown.Item as={Link} to="/substance-abuse-counseling" onClick={handleLinkClick}>Outpatient Substance Abuse Counseling</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/residential-substance-abuse-treatment" onClick={handleLinkClick}>Residential Substance Abuse Treatment</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/psychiatric-rehabilitation-program" onClick={handleLinkClick}>Psychiatric Rehabilitation Program</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/mental-health-therapy" onClick={handleLinkClick}>Outpatient Mental Health Therapy</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/medication-managment" onClick={handleLinkClick}>Medication Managment</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/medication-assisted-treatment" onClick={handleLinkClick}>Medication Assisted Treatment</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/residential-substance-abuse-treatment" onClick={handleLinkClick}>Residential Substance Abuse Treatment</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/medication-management" onClick={handleLinkClick}>Medication Management</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/psychiatric-rehabilitation-program" onClick={handleLinkClick}>Psychiatric Rehabilitation Program</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/contact" onClick={handleLinkClick}>Contact Us</Nav.Link>
             <div className="icon-container">
-              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/"><FontAwesomeIcon className="icon" icon={faSquareFacebook} /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/"><FontAwesomeIcon className="icon" icon={faXTwitter} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/RecoveryNetworkMaryland"><FontAwesomeIcon className="icon" icon={faSquareFacebook} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/recoverynetwork_upc?igshid=mg9qob42o1fw"><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/"><FontAwesomeIcon className="icon" icon={faLinkedinIn} /></a>
             </div>
           </Nav>

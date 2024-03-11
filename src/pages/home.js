@@ -97,21 +97,21 @@ function Home () {
                     </Link>
                 </Col>
                 <Col lg={4} className="grid-card">
-                    <Link to="/medication-managment">
+                    <Link to="/anger-management">
                     <Card>
-                    <Card.Img variant="top" src={family} />
+                    <Card.Img variant="top" src={rainbow} />
                     <Card.Body>
-                    <Card.Title>Medication Management</Card.Title>
+                    <Card.Title>Outpatient Anger Management</Card.Title>
                     </Card.Body>
                     </Card>
                     </Link>
                 </Col>
                 <Col lg={4} className="grid-card">
-                    <Link to="/medication-assisted-treatment">
+                    <Link to="/medication-managment">
                     <Card>
-                    <Card.Img variant="top" src={rainbow} />
+                    <Card.Img variant="top" src={family} />
                     <Card.Body>
-                    <Card.Title>Medication Assisted Treatment</Card.Title>
+                    <Card.Title>Medication Management</Card.Title>
                     </Card.Body>
                     </Card>
                     </Link>

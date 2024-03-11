@@ -35,7 +35,7 @@ function Footer () {
             <Col lg={4} className="d-flex justify-content-center copyright align-items-center">
                 <div>
                     <p>
-                        © 2023 Recovery Network | All Rights Reserved
+                        © 2023 Recovery Network | All Rights Reserved | <Link className="copyright" to="/services">All Services</Link>
                     </p>
                 </div>
             </Col>

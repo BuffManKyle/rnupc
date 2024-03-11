@@ -10,7 +10,7 @@ function OutSubstance () {
             <Container>
                 <h1>Outpatient Substance Abuse Counseling</h1>
                 <p>
-                    Recovery Network provides an array of comprehensive care options encompassing five distinct levels of treatment: Outpatient (Level I.1), Intensive Outpatient (Level II.1), Residential services at ASAM Intensity Levels III.1 and III.3, Transitional/Supportive Housing, and a certified DUI/DWI program. Our extensive facility boasts over 100 halfway house beds, catering to the needs of individuals requiring both short-term and extended care. Our offerings extend to diverse populations, including males, females, women with children, and those who identify as transgender. Driven by clinical considerations, Recovery Network presents a spectrum of twenty-five core program services to cater to a range of therapeutic needs.
+                    Recovery Network provides an array of comprehensive care options encompassing five distinct levels of treatment: Outpatient (Level I.1), Intensive Outpatient (Level II.1), Residential services at ASAM Intensity Levels III.1. Our extensive facility boasts over 60 halfway house beds, catering to the needs of individuals requiring both short-term and extended care. Our offerings extend to diverse populations, including males, females, and those who identify as transgender. Driven by clinical considerations, Recovery Network presents a spectrum of twenty-five core program services to cater to a range of therapeutic needs.
                 </p>
             </Container>
         </Container>
@@ -31,17 +31,9 @@ function OutSubstance () {
             </p>
             <h2>Medication Assisted Treatment</h2>
             <p>
-                Recovery Network’s buprenorphine program can be offered to individuals with a history of opiate dependence and are unable to maintain sobriety with traditional counseling services. All individuals who participate in the suboxone/buprenorphine must also be enrolled and compliant in the Level I.I, II.I, III.I, or III.3 programs listed above.
+                Recovery Network’s buprenorphine program can be offered to individuals with a history of opiate dependence and are unable to maintain sobriety with traditional counseling services. All individuals who participate in the suboxone/buprenorphine must also be enrolled and compliant in the Level III.3 or III.5 programs listed above.
             </p>
-            <h2>DUI Program/Forensic Services</h2>
-            <ul>
-                <li>Court Approved DUI and DWI Programs</li>
-                <li>12-Week Social Drinker Program</li>
-                <li>26 Week Problem Drinker Program</li>
-                <li>Expert Witness and Testimony</li>
-                <li>Urinalysis Monitoring</li>
-                <li>Liaison Consultation to Probation Offices</li>
-            </ul>
+            
             </Col>
             <Col lg={4} sm={12}>
                 <Contactform/>
