@@ -43,7 +43,7 @@ function Home () {
             <Col lg={7}>
                 
                 <h5 className="textcenter"> 
-                    The adept professionals at Recovery Network bring forth extensive expertise in the realms of substance abuse and mental health. This reservoir of experience empowers us to offer specialized guidance and compassionate assistance to communities throughout Baltimore. Our central mission revolves around facilitating individuals in their journey to regain control over their lives. Should you or a cherished individual require counseling services related to substance abuse or mental health, particularly if the idea of seeking support appears overwhelming, be reassured that our committed team is on hand to provide the essential aid and direction.
+                    Recovery Network provides you a unique opportunity for integrated treatment for those who are facing co-occurring and/or behavioral health disorders. Our clinical team of counselors, therapists, psychiatrists, and allied-health professionals aim to inspire inner healing, providing a state-certified blend of mental health and addiction services. Through individualized care, we encourage patients to achieve their own personal goals, guiding them to a better quality of life. We will coordinate with you to make sure a person in the midst of change has a safe, supportive transition. We appreciate your interest in Recovery Network as trusted providers of comprehensive co-occurring behavioral health treatment.
                 </h5>
                 
             </Col>
