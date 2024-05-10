@@ -5,6 +5,7 @@ import lake from './assets/images/lake-7340473_1280.jpg';
 function OutMental () {
     return (
     <>
+    <title>Recovery Network | Outpatient Mental Health Services</title>
     <div className='background-img-props' style={{ backgroundImage: `url(${lake})` }}>
         <Container fluid className='Jumbotron'>
             <Container>

@@ -5,6 +5,7 @@ import family from './assets/images/family-7257182_1280.jpg';
 function Medmanagment () {
     return (
     <>
+    <title>Recovery Network | Medication Managment</title>
     <div className='background-img-props' style={{ backgroundImage: `url(${family})` }}>
         <Container fluid className='Jumbotron'>
             <Container>

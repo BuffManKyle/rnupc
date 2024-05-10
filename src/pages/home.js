@@ -15,6 +15,7 @@ import man from './assets/images/man-7239061_1280.jpg';
 function Home () {
     return (
     <>
+    <title>Recovery Network | Substance Abuse Counseling Services in Baltimore, Maryland </title>
     <div className="hero-container">
     <div className="hero" >
         <div className="">

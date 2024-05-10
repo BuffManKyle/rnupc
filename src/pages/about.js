@@ -3,6 +3,7 @@ import {Container, Col, Row} from 'react-bootstrap';
 function About () {
     return (
     <>
+    <title>Recovery Network | About</title>
         <Container fluid className='Jumbotron'>
             <Container>
                 <h1>About</h1>

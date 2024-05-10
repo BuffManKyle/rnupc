@@ -5,6 +5,7 @@ import sunset from './assets/images/wedding-7335258_1280.jpg';
 function OutSubstance () {
     return (
     <>
+    <title>Recovery Network | Outpatient Substance Abuse Counseling</title>
     <div className='background-img-props' style={{ backgroundImage: `url(${sunset})` }}>
         <Container fluid className='Jumbotron'>
             <Container>

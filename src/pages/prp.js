@@ -5,6 +5,7 @@ import beach from './assets/images/couple-7231599_1280.jpg';
 function Prp () {
     return (
     <>
+    <title>Recovery Network | Psychiatric Rehabilitation Program</title>
      <div className='background-img-props' style={{ backgroundImage: `url(${beach})` }}>
         <Container fluid className='Jumbotron'>
             <Container>

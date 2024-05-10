@@ -5,6 +5,7 @@ import rainbow from './assets/images/rainbow-7350780_1280.jpg';
 function Domestic () {
     return (
     <>
+    
     <div className='background-img-props' style={{ backgroundImage: `url(${rainbow})` }}>
         <Container fluid className='Jumbotron'>
             <Container>

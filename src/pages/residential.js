@@ -5,6 +5,7 @@ import man from './assets/images/man-7239061_1280.jpg';
 function Residential () {
     return (
     <>
+    <title>Recovery Network | Residential Substance Abuse Treatment</title>
      <div className='background-img-props' style={{ backgroundImage: `url(${man})` }}>
         <Container fluid className='Jumbotron'>
             <Container>

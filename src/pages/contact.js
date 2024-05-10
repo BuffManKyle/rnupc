@@ -5,6 +5,7 @@ import sunset from './assets/images/sunset-8113697_1280.jpg';
 function Contact () {
     return (
     <>
+    <title>Recovery Network | Contact</title>
         <div className='background-img-props' style={{ backgroundImage: `url(${sunset})` }}>
         <Container fluid className='Jumbotron'>
             <Container>

@@ -5,6 +5,7 @@ import rainbow from './assets/images/rainbow-7350780_1280.jpg';
 function Anger () {
     return (
     <>
+    <title>Recovery Network | Outpatient Anger Management</title>
     <div className='background-img-props' style={{ backgroundImage: `url(${rainbow})` }}>
         <Container fluid className='Jumbotron'>
             <Container>

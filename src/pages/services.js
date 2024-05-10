@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 function Services () {
     return (
     <>
+    <title>Recovery Network | Services</title>
     <div className='background-img-props' style={{ backgroundImage: `url(${rainbow})` }}>
         <Container fluid className='Jumbotron'>
             <Container>
@@ -35,7 +36,7 @@ function Services () {
                 </Row>
                 <Row className=" justify-content-center">
                     <Col lg={6}>
-                        <Button className='services-button' as={Link} to="/medication-managment" >Medication Management</Button>
+                        <Button className='services-button' as={Link} to="/medication-management" >Medication Management</Button>
                     </Col>
                 </Row>
             </Col>
