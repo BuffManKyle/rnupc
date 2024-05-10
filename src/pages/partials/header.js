@@ -81,7 +81,7 @@ return (
             <div className="icon-container">
               <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/RecoveryNetworkMaryland"><FontAwesomeIcon className="icon" icon={faSquareFacebook} /></a>
               <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/recoverynetwork_upc?igshid=mg9qob42o1fw"><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/"><FontAwesomeIcon className="icon" icon={faLinkedinIn} /></a>
+             
             </div>
           </Nav>
         </Navbar.Collapse>
@@ -90,4 +90,5 @@ return (
     );
 }
 
+// <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/"><FontAwesomeIcon className="icon" icon={faLinkedinIn} /></a>
 export default Header;
